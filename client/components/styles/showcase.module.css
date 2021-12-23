@@ -1,0 +1,10 @@
+.showcase_grid {
+    justify-content: center;
+    max-width: 100%;
+    grid-row: 2;
+}
+.showcase_item {
+    background-color: white;
+    grid-column: span 3;
+    padding-top: 100%;
+}

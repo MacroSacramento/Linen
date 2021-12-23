@@ -1,0 +1,15 @@
+.nav_wrapper {
+    align-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 5rem;
+    justify-content: center;
+}
+.logo {
+    font-size: 2rem;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    grid-column: 2;
+    line-height: 1;
+    text-align: center;
+}
