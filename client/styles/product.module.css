@@ -1,0 +1,36 @@
+.product {
+    display: grid;
+    grid-template-columns: subgrid;
+    grid-column: span 12;
+    background-color: white;
+}
+
+.product_display {
+    display: grid;
+    grid-template-columns: subgrid;
+    grid-column: span 9;
+}
+
+.product_image__main {
+    grid-column: 2/8;
+    aspect-ratio: 1/1;
+    background-color: lightgray;
+}
+
+.product_image__container {
+    grid-column: 8/10;
+    display: grid;
+    grid-template-columns: subgrid;
+}
+
+.product_image__subImage {
+    grid-row: span 1;
+    grid-column: 8/10;
+    background-color:  lightgray;
+    border: 1px solid black
+}
+
+.product_desc {
+    grid-column: 10/13;
+    background-color: aqua;
+}
